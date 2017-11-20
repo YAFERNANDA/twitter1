@@ -8,4 +8,4 @@ HERRAMIENTAS
 ------------
 - HTML para realizar maquetado de la pagina.
 - CSS permite darle vida a nuestra pagina.
- JAVASCRIPT ayuda a tener una mejor  interaccion con el usuario.
+- JAVASCRIPT ayuda a tener una mejor  interaccion con el usuario.
