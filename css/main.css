@@ -1,0 +1,104 @@
+body{
+  box-sizing: border-box;
+  margin:auto;
+  /*font-family: 'Quantico', sans-serif;*/
+  font-family: 'Cutive', serif;
+}
+
+ body video{
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  /*para que nuestro video este centrado*/
+  top:50%;
+  left:50%;
+  /*se traslade el el eje x (horizontal) y el eje y (ertical)*/
+  transform:translateX(-50%) translateY(-50%);
+  /*para hecer que su posicion este por debajo de todo*/
+  z-index: -1;
+
+}
+
+body h1{
+  margin: 0;
+  text-align: center;
+  background-color: #1da1f2;
+  color: white;
+  font-size: 30px;
+  padding: 8px;
+}
+
+body .container{
+  background-color: white;
+  display: inline-block;
+  width: 40%;
+  padding: 30px 100px 30px 20px;
+  font-size: 14px;
+  margin:10px 10px 10px 70px;
+  position: static;
+  float:left;
+}
+
+body .form{
+  background-color: white;
+  width:30%;
+  padding: 10px;
+  display:inline-block;
+  margin:10px;
+  float: left;
+}
+
+body .form .textarea{
+  width: 100%;
+  border-style: none;
+}
+
+body .form hr{
+  margin-top: 20px;
+}
+
+body .form .textarea{
+  text-decoration: none;
+}
+
+body .form .button{
+  padding: 5px 20px 5px 20px;
+  background-color: #1da1f2;
+  color: white;
+  margin-top: 15px;
+  border-style: none;
+}
+
+body .form #number{
+  width: 40px;
+  position:relative;
+  left: 50%;
+  border-style: none;
+
+}
+
+
+.red{
+  color: red;
+  border-color: red;
+}
+
+.green{
+  color: green;
+  border-color: green;
+}
+.yellow{
+  color: yellow;
+  border-color: yellow;
+}
+
+.new{
+  width: 500px;
+  height: 100px;
+  background-color: white;
+  padding: 20px;
+  margin: 50px;
+  margin-left: 100px;
+  float: left;
+
+}
